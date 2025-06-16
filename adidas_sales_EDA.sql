@@ -87,13 +87,6 @@ GROUP BY asd.product
 ORDER BY operating_margin
 LIMIT 1;
 --Insight: Men's Athletic Footwear had the lowest average operating margin (0.402702).
---How to improve:
---Strategies could include:
---
---Cost Reduction: Negotiating better supplier deals, improving production efficiency, or optimizing logistics.
---Pricing Strategy: Evaluating potential for premium pricing or dynamic pricing, provided it aligns with market perception.
---Sales Volume & Mix: Increasing sales of higher-margin products to offset lower margins, or bundling.
---Product Optimization: Reviewing features or materials for cost-effectiveness without compromising quality.
 
 -- PRODUCT-SPECIFIC ANALYSIS
 
