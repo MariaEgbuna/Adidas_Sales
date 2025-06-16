@@ -11,13 +11,13 @@ This dataset contains detailed sales information for Adidas products within the 
 * **Date Information:** The invoice date for each transaction.
 
 ---
-## Data Cleaning Performed (Step 1)
+## Data Cleaning Performed
 Prior to further analysis, a critical data cleaning step was executed using Microsoft Excel:
 * **Issue:** The `Total Sales` column initially contained systematic data entry errors, with many values being ten times higher than the actual product of `Price per Unit` and `Units Sold`.
 * **Correction:** For all affected rows, the `Total Sales` value was corrected by dividing it by 10.
 * **Result:** The `Total Sales` column is now accurate and consistent, ensuring the integrity of the sales figures for reliable analysis.
 
-## EDA (Step 2)
+## Exploratory Data Analysis
 The analysis is based on the `Adidas_US_Sales.csv` dataset, which contains detailed sales records including:
 * `retailer`, `retailer_id`
 * `invoice_date`
