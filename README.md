@@ -67,7 +67,7 @@ To reproduce this analysis, follow these steps:
 
 1.  **Database Setup:** Ensure you have a PostgreSQL database instance set up and a client like DBeaver connected.
 2.  **Load Data:** Import the `Adidas_US_Sales.csv` file into a table named `adidas_sales_data` in your PSQL database. Ensure appropriate data types for columns (e.g., `invoice_date` as `DATE`, `price_per_unit` as `NUMERIC`, `units_sold` as `INTEGER`, `total_sales`, `operating_profit` as `NUMERIC`, `operating_margin_percent` as `NUMERIC`). Remember to apply the data cleaning steps mentioned above (recalculating `total_sales`) to ensure data integrity.
-3.  **Run Queries:** Execute the SQL queries from the [`adidad_sales_EDA.sql`](adidad_sales_EDA.sql) file within your PSQL environment to obtain the analysis results.
+3.  **Run Queries:** Execute the SQL queries from the [`adidas_sales_EDA.sql`](adidas_sales_EDA.sql) file within your PSQL environment to obtain the analysis results.
 
 ## Future Work
 
