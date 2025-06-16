@@ -37,8 +37,8 @@ The EDA was structured around several key areas of inquiry:
 4.  **Product-Specific Analysis**: Looking closely at individual product performance metrics.
 
 ## Tools Used
-* **DBeaver**: For database management and running SQL queries.
-* **PSQL (PostgreSQL)**: The relational database management system used for executing the analysis queries.
+* **Microsoft Excel**
+* **PSQL (PostgreSQL)**
 * **SQL**: Primary language for data extraction and aggregation.
 
 ---
