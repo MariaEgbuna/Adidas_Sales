@@ -10,14 +10,14 @@ This document provides the derived insights and answers to the specific question
 **Answer/Insight:**
 Men's Street Footwear generated the highest revenue, significantly outperforming other categories.
 
-| product                   | total_revenue |
-|:--------------------------|:--------------|
-| Men's Street Footwear     | 27680769      |
-| Women's Apparel           | 23870985      |
-| Men's Athletic Footwear   | 20577180      |
-| Women's Street Footwear   | 17201563      |
-| Men's Apparel             | 16520632      |
-| Women's Athletic Footwear | 14315521      |
+| product                   | total_revenue   |
+|:--------------------------|:----------------|
+| Men's Street Footwear     | 27,680,769      |
+| Women's Apparel           | 23,870,985      |
+| Men's Athletic Footwear   | 20,577,180      |
+| Women's Street Footwear   | 17,201,563      |
+| Men's Apparel             | 16,520,632      |
+| Women's Athletic Footwear | 14,315,521      |
 
 ---
 
@@ -26,11 +26,11 @@ Men's Street Footwear generated the highest revenue, significantly outperforming
 **Answer/Insight:**
 The 'Online' sales method generated the highest total revenue, indicating its dominance in sales channels.
 
-| sales_method   | total_revenue |
-|:---------------|:--------------|
-| Online         | 44965657      |
-| Outlet         | 39536618      |
-| In-store       | 35664375      |
+| sales_method   | total_revenue   |
+|:---------------|:----------------|
+| Online         | 44,965,657      |
+| Outlet         | 39,536,618      |
+| In-store       | 35,664,375      |
 
 ---
 
@@ -55,13 +55,13 @@ Men's Athletic Footwear had the lowest average operating margin among all produc
 **Answer/Insight:**
 The West Region generated the highest profit, while the Midwest Region generated the lowest profit.
 
-| region    | total_profit |
-|:----------|:-------------|
-| West      | 13017707     |
-| Northeast | 9732899      |
-| South     | 9221667      |
-| Southeast | 8393124      |
-| Midwest   | 6860043      |
+| region    | total_profit   |
+|:----------|:---------------|
+| West      | 13,017,707     |
+| Northeast | 9,732,899      |
+| South     | 9,221,667      |
+| Southeast | 8,393,124      |
+| Midwest   | 6,860,043      |
 
 ---
 
@@ -74,30 +74,31 @@ Revenue showed a significant increase from 2020 to 2021, with 2021 consistently 
 
 | sales_year | sales_month | total_revenue |
 |:-----------|:------------|:--------------|
-| 2020       | 1           | 2.31275e+06   |
-| 2020       | 2           | 2.14081e+06   |
-| 2020       | 3           | 2.4742e+06    |
-| 2020       | 4           | 3.19308e+06   |
-| 2020       | 5           | 2.16476e+06   |
-| 2020       | 6           | 1.08419e+06   |
-| 2020       | 7           | 2.18239e+06   |
-| 2020       | 8           | 2.64163e+06   |
-| 2020       | 9           | 2.36769e+06   |
-| 2020       | 10          | 1.42857e+06   |
-| 2020       | 11          | 1.16805e+06   |
-| 2020       | 12          | 1.0792e+06    |
-| 2021       | 1           | 7.43202e+06   |
-| 2021       | 2           | 6.12304e+06   |
-| 2021       | 3           | 5.22078e+06   |
-| 2021       | 4           | 6.49834e+06   |
-| 2021       | 5           | 8.57696e+06   |
-| 2021       | 6           | 8.71895e+06   |
-| 2021       | 7           | 1.0368e+07    |
-| 2021       | 8           | 9.6516e+06    |
-| 2021       | 9           | 8.0379e+06    |
-| 2021       | 10          | 7.11019e+06   |
-| 2021       | 11          | 7.85539e+06   |
-| 2021       | 12          | 1.03361e+07   |
+| 2020       | 1           | 2,312,750.00  |
+| 2020       | 2           | 2,140,810.00  |
+| 2020       | 3           | 2,474,200.00  |
+| 2020       | 4           | 3,193,080.00  |
+| 2020       | 5           | 2,164,760.00  |
+| 2020       | 6           | 1,084,190.00  |
+| 2020       | 7           | 2,182,390.00  |
+| 2020       | 8           | 2,641,630.00  |
+| 2020       | 9           | 2,367,690.00  |
+| 2020       | 10          | 1,428,570.00  |
+| 2020       | 11          | 1,168,050.00  |
+| 2020       | 12          | 1,079,200.00  |
+| 2021       | 1           | 7,432,020.00  |
+| 2021       | 2           | 6,123,040.00  |
+| 2021       | 3           | 5,220,780.00  |
+| 2021       | 4           | 6,498,340.00  |
+| 2021       | 5           | 8,576,960.00  |
+| 2021       | 6           | 8,718,950.00  |
+| 2021       | 7           | 10,368,000.00 |
+| 2021       | 8           | 9,651,600.00  |
+| 2021       | 9           | 8,037,900.00  |
+| 2021       | 10          | 7,110,190.00  |
+| 2021       | 11          | 7,855,390.00  |
+| 2021       | 12          | 10,336,100.00 |
+
 
 ---
 
@@ -106,13 +107,13 @@ Revenue showed a significant increase from 2020 to 2021, with 2021 consistently 
 **Answer/Insight:**
 The West region contributes the most to total sales and also generates the highest total profit, indicating strong alignment between sales volume and profitability in this region.
 
-| region    | total_revenue | total_profit |
-|:----------|:--------------|:-------------|
-| West      | 36436157      | 13017707     |
-| Northeast | 25078267      | 9732899      |
-| Southeast | 21374436      | 8393124      |
-| South     | 20603356      | 9221667      |
-| Midwest   | 16674434      | 6860043      |
+| region    | total_revenue | total_profit   |
+|:----------|:--------------|:---------------|
+| West      | 36436157      | 13,017,707     |
+| Northeast | 25078267      | 9,732,899      |
+| Southeast | 21374436      | 8,393,124      |
+| South     | 20603356      | 9,221,667      |
+| Midwest   | 16674434      | 6,860,043      |
 
 ---
 
@@ -130,14 +131,14 @@ This analysis provides weekly product sales data, which can be used for further 
 **Answer/Insight:**
 Men's Street Footwear generated the highest overall operating profit.
 
-| product                   | total_profit |
-|:--------------------------|:-------------|
-| Men's Street Footwear     | 11629116     |
-| Women's Apparel           | 9685277      |
-| Men's Athletic Footwear   | 7437534      |
-| Women's Street Footwear   | 6494094      |
-| Men's Apparel             | 6381510      |
-| Women's Athletic Footwear | 5597909      |
+| product                   | total_profit   |
+|:--------------------------|:---------------|
+| Men's Street Footwear     | 11,629,116     |
+| Women's Apparel           | 9,685,277      |
+| Men's Athletic Footwear   | 7,437,534      |
+| Women's Street Footwear   | 6,494,094      |
+| Men's Apparel             | 6,381,510      |
+| Women's Athletic Footwear | 5,597,909      |
 
 ---
 
@@ -190,10 +191,10 @@ Men's Street Footwear had the highest average units sold per day.
 **Answer/Insight:**
 Women's Street Footwear outperformed Women's Athletic Footwear in both total sales and total profit.
 
-| product                   | total_revenue | total_profit |
-|:--------------------------|:--------------|:-------------|
-| Women's Athletic Footwear | 14315521      | 5597909      |
-| Women's Street Footwear   | 17201563      | 6494094      |
+| product                   | total_revenue   | total_profit   |
+|:--------------------------|:----------------|:---------------|
+| Women's Athletic Footwear | 14,315,521      | 5,597,909      |
+| Women's Street Footwear   | 17,201,563      | 6,494,094      |
 
 ---
 
