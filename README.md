@@ -48,16 +48,17 @@ Here are the main questions explored during this EDA. For detailed answers and i
 ![Screenshot](Images/Performance_Analysis.png)
 
 ### Regional and Temporal Trends
-* How does the total revenue change across different weeks or months?
+* How does the total revenue change across different months?
 * Which region contributes the most to the total sales, and does it align with the highest profitability?
-* Are there specific dates or weeks when certain products experienced a significant spike or drop in sales?
+* What are the retailers sales distribution?
+* Average profit margin by regions?
 
 ![Screenshot](Images/Regional&Temporal_Trends.png)
 
 ### Profitability Insights
 * Which product category has the highest operating profit across all sales methods?
-* What is the average profit margin for products sold via In-store vs. Outlet methods?
-* Which product had the lowest operating margin, and how can this be improved?
+* What is the average price for products sold via In-store vs. Outlet methods?
+* Which retailers had the lowest profit percentage, and how can this be improved?
 
 ![Screenshot](Images/Profitability_Insights.png)
 
@@ -74,11 +75,3 @@ To reproduce this analysis, follow these steps:
 1.  **Database Setup:** Ensure you have a PostgreSQL database instance set up and a client like DBeaver connected.
 2.  **Load Data:** Import the `Adidas_US_Sales.csv` file into a table named `adidas_sales_data` in your PSQL database. Ensure appropriate data types for columns (e.g., `invoice_date` as `DATE`, `price_per_unit` as `NUMERIC`, `units_sold` as `INTEGER`, `total_sales`, `operating_profit` as `NUMERIC`, `operating_margin_percent` as `NUMERIC`). Remember to apply the data cleaning steps mentioned above (recalculating `total_sales`) to ensure data integrity.
 3.  **Run Queries:** Execute the SQL queries from the [`Adidas_Sales_EDA.sql`](Adidas_Sales_EDA.sql) file within your PSQL environment to obtain the analysis results.
-
-## Future Work
-
-* Develop interactive dashboards (e.g., in Power BI) to visualize key trends and insights.
-* Conduct deeper statistical analysis to identify sales seasonality and predict future performance.
-* Explore more granular data if available, such as customer demographics or marketing spend, to derive further actionable insights.
-  
----
