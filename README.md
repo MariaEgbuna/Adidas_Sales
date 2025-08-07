@@ -45,15 +45,21 @@ Here are the main questions explored during this EDA. For detailed answers and i
 * What is the average operating margin across all product categories?
 * Which region generates the highest profit, and which has the lowest?
 
+![Screenshot](Images/Performance_Analysis.png)
+
 ### Regional and Temporal Trends
 * How does the total revenue change across different weeks or months?
 * Which region contributes the most to the total sales, and does it align with the highest profitability?
 * Are there specific dates or weeks when certain products experienced a significant spike or drop in sales?
 
+![Screenshot](Images/Regional&Temporal_Trends.png)
+
 ### Profitability Insights
 * Which product category has the highest operating profit across all sales methods?
 * What is the average profit margin for products sold via In-store vs. Outlet methods?
 * Which product had the lowest operating margin, and how can this be improved?
+
+![Screenshot](Images/Profitability_Insights.png)
 
 ### Product-Specific Analysis
 * What is the average units sold per day for each product category?
